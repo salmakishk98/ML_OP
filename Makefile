@@ -6,3 +6,6 @@ lint:
 
 test:
 	python -m pytest -vv test.py
+
+deploy:
+	uvicorn main_app:app

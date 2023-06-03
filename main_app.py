@@ -15,4 +15,6 @@ def home123():
 def mul_x_y_api(a:int, b:int):
     return multipl_xy(a, b)
 
-
+@app.post("/data")
+def get_data():
+    return "post request"
