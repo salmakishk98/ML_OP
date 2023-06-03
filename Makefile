@@ -5,7 +5,7 @@ lint:
 	pylint main.py
 
 test:
-	python -m pytest -vv test.py
+	python -m pytest -vv 
 
 deploy:
 	uvicorn main_app:app
