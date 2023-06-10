@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . -t mlops_image:$(date +%s)
+      run: docker build . -t mlops_first_docker:$(date +%s)
     - name: Docker Login
       uses: docker/login-action@v2.2.0
       with:
